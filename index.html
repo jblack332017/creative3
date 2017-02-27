@@ -1,0 +1,30 @@
+<html>
+<head>
+  <title>Website Creation</title>
+
+
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.10/angular-ui-router.js"></script>
+
+  <script src="web.js"></script>
+
+
+</head>
+<body ng-app="myApp">
+<div ng-controller="MyCtrl">
+      <form ng-submit="create()">
+
+         <input type="text" class="" placeholder="Title" ng-model="title"></input>
+         <button type="submit" class="">Create</button>
+
+         <div ng-repeat="post in posts">
+         {{post.title}} : {{post.href}}
+         </div>
+
+      </form>
+</div>
+
+</body>
+</html>
