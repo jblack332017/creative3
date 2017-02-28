@@ -1,3 +1,46 @@
+var heading = (function()
+{/*
+<html>
+<head>
+
+
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
+.w3-third img:hover{opacity: 1}
+#form{
+  margin: 20px;
+}
+img{
+  height: 35%!important;
+}
+</style>
+
+
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.10/angular-ui-router.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular-sanitize.min.js"></script>
+  <script src="web.js"></script>
+  <script src="variables.js"></script>
+
+
+</head>
+<body >
+*/}).toString().match(/[^]*\/\*([^]*)\*\/\}$/)[1];
+
+var ending = (function()
+{/*
+
+</body>
+</html>
+*/}).toString().match(/[^]*\/\*([^]*)\*\/\}$/)[1];
+
+
 var template = (function () {/*
    
 <h1 class="w3-center">#Name</h1>
@@ -43,27 +86,7 @@ var template = (function () {/*
     </div>
   </div>
 
-  <!-- Contact section -->
-  <div class='w3-container w3-light-grey w3-padding-32 w3-padding-large' id='contact'>
-    <div class='w3-content' style='max-width:600px'>
-      <h4 class='w3-center'><b>Contact Me</b></h4>
-      <form action='/action_page.php' target='_blank'>
-        <div class='w3-group'>
-          <label>Name</label>
-          <input class='w3-input w3-border' type='text' name='Name' required>
-        </div>
-        <div class='w3-group'>
-          <label>Email</label>
-          <input class='w3-input w3-border' type='text' name='Email' required>
-        </div>
-        <div class='w3-group'>
-          <label>Message</label>
-          <input class='w3-input w3-border' type='text' name='Message' required>
-        </div>
-        <button type='submit' class='w3-button w3-block w3-black w3-margin-bottom'>Send Message</button>
-      </form>
-    </div>
-  </div>
+  
 
   <!-- Footer -->
   <footer class='w3-container w3-padding-32 w3-grey'>  
@@ -74,15 +97,13 @@ var template = (function () {/*
       </div>
     
       <div class='w3-third'>
-        <h3>BLOG POSTS</h3>
+        <h3>LINKS</h3>
         <ul class='w3-ul'>
           <li class='w3-padding-16 w3-hover-black'>
-            <span class='w3-large'>Lorem</span><br>
-            <span>Sed mattis nunc</span>
+            <a href="#link1" class='w3-large'>#link1Title</a>
           </li>
           <li class='w3-padding-16 w3-hover-black'>
-            <span class='w3-large'>Ipsum</span><br>
-            <span>Praes tinci sed</span>
+            <a href="#link2" class='w3-large'>#link2Title</a>
           </li> 
         </ul>
       </div>
@@ -90,11 +111,8 @@ var template = (function () {/*
       <div class='w3-third'>
         <h3>POPULAR TAGS</h3>
         <p>
-          <span class='w3-tag w3-black w3-margin-bottom'>Travel</span> <span class='w3-tag w3-dark-grey w3-small w3-margin-bottom'>New York</span> <span class='w3-tag w3-dark-grey w3-small w3-margin-bottom'>London</span>
-          <span class='w3-tag w3-dark-grey w3-small w3-margin-bottom'>IKEA</span> <span class='w3-tag w3-dark-grey w3-small w3-margin-bottom'>NORWAY</span> <span class='w3-tag w3-dark-grey w3-small w3-margin-bottom'>DIY</span>
-          <span class='w3-tag w3-dark-grey w3-small w3-margin-bottom'>Ideas</span> <span class='w3-tag w3-dark-grey w3-small w3-margin-bottom'>Baby</span> <span class='w3-tag w3-dark-grey w3-small w3-margin-bottom'>Family</span>
-          <span class='w3-tag w3-dark-grey w3-small w3-margin-bottom'>News</span> <span class='w3-tag w3-dark-grey w3-small w3-margin-bottom'>Clothing</span> <span class='w3-tag w3-dark-grey w3-small w3-margin-bottom'>Shopping</span>
-          <span class='w3-tag w3-dark-grey w3-small w3-margin-bottom'>Sports</span> <span class='w3-tag w3-dark-grey w3-small w3-margin-bottom'>Games</span>
+          <span class='w3-tag w3-black w3-margin-bottom'>#tag1</span> <span class='w3-tag w3-dark-grey w3-small w3-margin-bottom'>#tag2</span> <span class='w3-tag w3-dark-grey w3-small w3-margin-bottom'>#tag3</span>
+         
         </p>
       </div>
     </div>

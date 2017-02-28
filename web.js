@@ -28,10 +28,24 @@ angular.module('myApp', ['ngSanitize'])
     temp = temp.replace("girl_train.jpg",$scope.pic6);
 
     temp = temp.replace("#info",$scope.info);
+   
+    temp = temp.replace("#link1Title",$scope.link1Title);
+    temp = temp.replace("#link2Title",$scope.link2Title);
+    temp = temp.replace("#link1",$scope.link1);
+    temp = temp.replace("#link2",$scope.link2);
+
+    temp = temp.replace("#tag1",$scope.tag1);
+    temp = temp.replace("#tag2",$scope.tag2);
+    temp = temp.replace("#tag3",$scope.tag3);
+
+    
+
+
 
 
 
     $scope.page = temp;
+    $scope.html = heading+temp+ending;
 //
 
   	//files

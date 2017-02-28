@@ -51,6 +51,21 @@ img{
 
         <input type="text" class="" size="100%" placeholder="About You" ng-model="aboutMe"></input>
         <input type="text" class="" size="100%" placeholder="Final Info" ng-model="info"></input>
+        <br>
+
+        <input type="text" class="" placeholder="Link 1 Title" ng-model="link1Title"></input>
+        <input type="text" class="" placeholder="Link 1" ng-model="link1"></input>
+        <input type="text" class="" placeholder="Link 2 Title" ng-model="link2Title"></input>
+        <input type="text" class="" placeholder="Link 2" ng-model="link2"></input>
+
+        <br>
+        <input type="text" class="" placeholder="Tag 1" ng-model="tag1"></input>
+        <input type="text" class="" placeholder="Tag 2" ng-model="tag2"></input>
+        <input type="text" class="" placeholder="Tag 3" ng-model="tag3"></input>
+        <input type="text" class="" placeholder="Tag 4" ng-model="tag4"></input>
+
+
+
 
 
          <button type="submit" class="">Create</button>
@@ -63,6 +78,7 @@ img{
 
       </form>
       <title ng-bind-html="titleDisplay"></title>
+      <div ng-bind="html"></div>
       <div ng-bind-html="page"></div>
 
 </div>
