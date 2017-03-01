@@ -62,14 +62,14 @@ var template = (function () {/*
   
   <!-- Photo grid -->
   <div class="w3-row">
-      <img class='w3-third' src='natureboy.jpg' style='width:100% ; height:30%!important;' alt='A boy surrounded by beautiful nature'>
-      <img class='w3-third' src='girl_mountain.jpg' style='width:100% ; height:30%!important;' alt='What a beautiful scenery this sunset'>
+      <img class='w3-third' src='images/natureboy.jpg' style='width:100% ; height:30%!important;' alt='A boy surrounded by beautiful nature'>
+      <img class='w3-third' src='images/girl_mountain.jpg' style='width:100% ; height:30%!important;' alt='What a beautiful scenery this sunset'>
 
-      <img class='w3-third' src='boy.jpg' style='width:100% ; height:30%!important;' alt='Quiet day at the beach. Cold, but beautiful'>
-      <img class='w3-third' src='man_bench.jpg' style='width:100% ; height:30%!important;' alt='Waiting for the bus in the desert'>
+      <img class='w3-third' src='images/boy.jpg' style='width:100% ; height:30%!important;' alt='Quiet day at the beach. Cold, but beautiful'>
+      <img class='w3-third' src='images/man_bench.jpg' style='width:100% ; height:30%!important;' alt='Waiting for the bus in the desert'>
     
-      <img class='w3-third' src='girl.jpg' style='width:100% ; height:30%!important;' alt='Canoeing again'>
-      <img class='w3-third' src='girl_train.jpg' style='width:100% ; height:30%!important;' alt='A girl, and a train passing'>
+      <img class='w3-third' src='images/girl.jpg' style='width:100% ; height:30%!important;' alt='Canoeing again'>
+      <img class='w3-third' src='images/girl_train.jpg' style='width:100% ; height:30%!important;' alt='A girl, and a train passing'>
 </div>
 
   
