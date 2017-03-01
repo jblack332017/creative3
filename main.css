@@ -1,0 +1,39 @@
+textArea{
+    display: none;
+}
+
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
+.w3-third img:hover{opacity: 1}
+#form{
+    margin-top:50vh;
+}
+img{
+  height: 50%!important;
+}
+
+input{
+    height:75px;
+    width: 250px;
+}
+
+#leftArrow{
+    margin-top: 50vh;
+    
+}
+
+#rightArrow{
+    margin-top: 50vh;
+}
+
+#leftArrowDiv{
+    text-align: center;
+}
+
+#rightArrowDiv{
+    text-align: center;
+}
+
+#formDiv{
+    text-align: center; 
+}
