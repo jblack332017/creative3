@@ -12,11 +12,11 @@ angular.module('myApp', ['ngSanitize'])
         $scope.pic6 = "images/girl_train.jpg"; 
         $scope.posts = [];
         $scope.create = function() {
-            var url = $location.absUrl().split('?')[0]
-            var dir = url.substring(0, url.lastIndexOf('/'));
-            $scope.posts.push({title:$scope.title,href:dir});
-            $scope.titleDisplay = $scope.title;
-            var temp = template;
+            // var url = $location.absUrl().split('?')[0]
+            // var dir = url.substring(0, url.lastIndexOf('/'));
+            // $scope.posts.push({title:$scope.title,href:dir});
+            // $scope.titleDisplay = $scope.title;
+            // var temp = template;
             // temp = temp.replace("#Name",$scope.name);
             // temp = temp.replace("#aboutMe",$scope.aboutMe);
             // temp = temp.replace("#email",$scope.email);
