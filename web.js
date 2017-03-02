@@ -4,9 +4,6 @@ angular.module('myApp', ['ngSanitize'])
     '$location',
     function($scope,$location)
     {
-
-
-
         $scope.pic1 = "images/natureboy.jpg";
         $scope.pic2 = "images/girl_mountain.jpg";   
         $scope.pic3 = "images/boy.jpg";
@@ -20,8 +17,6 @@ angular.module('myApp', ['ngSanitize'])
             $scope.posts.push({title:$scope.title,href:dir});
             $scope.titleDisplay = $scope.title;
             var temp = template;
-
-
             temp = temp.replace("#Name",$scope.name);
             temp = temp.replace("#aboutMe",$scope.aboutMe);
             temp = temp.replace("#email",$scope.email);
