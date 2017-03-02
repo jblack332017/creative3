@@ -26,7 +26,6 @@ angular.module('myApp', ['ngSanitize'])
             temp = temp.replace("#aboutMe",$scope.aboutMe);
             temp = temp.replace("#email",$scope.email);
             temp = temp.replace("#phoneNumber",$scope.phoneNumber);
-            temp = temp.replace("#aboutMe",$scope.aboutMe);
 
             temp = temp.replace("images/natureboy.jpg",$scope.pic1);
             temp = temp.replace("images/girl_mountain.jpg",$scope.pic2);
