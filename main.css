@@ -2,28 +2,47 @@ textArea{
     display: none;
 }
 
+#viewHTML{
+    margin-top:20px;
+    margin-bottom:15px;
+    display:none;
+
+}
+
 body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 .w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
 .w3-third img:hover{opacity: 1}
 #form{
-    margin-top:50vh;
+    margin-top:45vh;
 }
 img{
   height: 50%!important;
 }
 
-input{
+input[type=text]{
     height:75px;
     width: 250px;
+    font-size: 20pt;
+}
+
+.glyphicon.glyphicon-menu-right{
+    font-size: 50pt;
+}
+
+#create{
+    margin-top: 20px;
+}
+
+.glyphicon.glyphicon-menu-left{
+    font-size: 50pt;
 }
 
 #leftArrow{
-    margin-top: 50vh;
-    
+    margin-top: 45vh;
 }
 
 #rightArrow{
-    margin-top: 50vh;
+    margin-top: 45vh;
 }
 
 #leftArrowDiv{

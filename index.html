@@ -18,9 +18,9 @@
 </head>
 <body >
 <div ng-app="myApp" ng-controller="MyCtrl">
-  <div class="container-fluid">
+  <div class="container-fluid" id="totalContainer">
     <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="leftArrowDiv">
-      <button id="leftArrow">Left</button>
+      <span class="glyphicon glyphicon-menu-left" id="leftArrow"></span>
     </div>
     <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="formDiv">
       <form ng-submit="create()" id="form">
@@ -59,7 +59,7 @@
           <input type="text" class="" placeholder="Tag 3" ng-model="tag3"></input>
           <input type="text" class="" placeholder="Tag 4" ng-model="tag4"></input>
         </div>
-         <button type="submit" class="">Create</button>
+         <button type="submit" id="create" class="btn btn-primary btn-lg">Create</button>
          <!--<div ng-repeat="post in posts">
          {{post.title}} : {{post.href}}
 
@@ -67,12 +67,17 @@
       </form>
     </div>
     <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="rightArrowDiv">
-        <button id="rightArrow">right</button>
+        <span class="glyphicon glyphicon-menu-right" id="rightArrow"></span>
     </div>
   </div>
       <title ng-bind-html="titleDisplay"></title>
       <div ng-bind-html="page"></div>
-      <div><textarea ng-bind="html" ng-style="textArea"></textarea></div>
+      <div>
+        <center>
+          <button id="viewHTML" class="btn btn-primary btn-lg">View HTML</button>
+        </center>
+      </div>
+      <div><textarea ng-bind="html" id="textArea" ng-style="textArea"></textarea></div>
 </div>
 
 

@@ -5,7 +5,6 @@ $(document).ready(function()
   } 
   var divArray = [$("#basicInfo"),$("#theImages"),$("#moreInfo"), $("#links"),$("#tags")];
   var currentDiv = 0;
-  console.log(divArray);
   $("#rightArrow").click(function()
   {
       divArray[currentDiv].slideUp("fast",function()
@@ -25,4 +24,17 @@ $(document).ready(function()
         divArray[currentDiv].css('visibility', 'visible').hide().stop().slideDown("fast");
       });
   });
+
+  $("#create").click(function(){
+      $("#totalContainer").slideUp("slow");
+      $("#viewHTML").css("display", "block");
+  });
+
+  $("#viewHTML").click(function()
+  {
+    $("#viewHTML").slideUp();
+    $("#textArea").css({'min-width': '100%', 'min-height': '100%', 'display':'block', 'margin-top':'5%'});
+  });
 });  
+
+

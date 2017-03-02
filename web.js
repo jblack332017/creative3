@@ -43,12 +43,6 @@ angular.module('myApp', ['ngSanitize'])
 
             $scope.page = temp;
             $scope.html = heading+temp+ending;
-            $scope.textArea = {
-            'min-width' : '100%',
-            'min-height': '100%',
-            'display': 'block',
-            'margin-top': '10%'
-            }
         }
     }
 ]);
